@@ -1,6 +1,6 @@
-[submodule "my_plugins/jedi-vim"]
-	path = my_plugins/jedi-vim
-	url = https://github.com/davidhalter/jedi-vim.git
 [submodule "my_plugins/onehalf"]
 	path = my_plugins/onehalf
 	url = https://github.com/sonph/onehalf
+[submodule "my_plugins/coc.nvim"]
+	path = my_plugins/coc.nvim
+	url = https://github.com/neoclide/coc.nvim
