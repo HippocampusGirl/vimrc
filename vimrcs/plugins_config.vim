@@ -12,7 +12,13 @@ let s:vim_runtime = expand('<sfile>:p:h')."/.."
 call pathogen#infect(s:vim_runtime.'/sources_forked/{}')
 call pathogen#infect(s:vim_runtime.'/sources_non_forked/{}')
 call pathogen#infect(s:vim_runtime.'/my_plugins/{}')
+call pathogen#infect(s:vim_runtime.'/my_plugins/{}/vim')
 call pathogen#helptags()
+
+""""""""""""""""""""""""""""""
+" => color scheme
+""""""""""""""""""""""""""""""
+colorscheme onehalflight
 
 
 """"""""""""""""""""""""""""""
@@ -121,7 +127,7 @@ au FileType mako vmap Si S"i${ _(<esc>2f"a) }<esc>
 " => lightline
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 let g:lightline = {
-      \ 'colorscheme': 'PaperColor',
+      \ 'colorscheme': 'PaperColor_light',
       \ 'active': {
       \   'left': [ ['mode', 'paste'],
       \             ['fugitive', 'readonly', 'filename', 'modified'] ],

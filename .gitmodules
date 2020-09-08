@@ -1,6 +1,6 @@
 [submodule "my_plugins/jedi-vim"]
 	path = my_plugins/jedi-vim
 	url = https://github.com/davidhalter/jedi-vim.git
-[submodule "my_plugins/papercolor-theme"]
-	path = my_plugins/papercolor-theme
-	url = https://github.com/NLKNguyen/papercolor-theme.git
+[submodule "my_plugins/onehalf"]
+	path = my_plugins/onehalf
+	url = https://github.com/sonph/onehalf
