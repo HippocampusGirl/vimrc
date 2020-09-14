@@ -4,3 +4,6 @@
 [submodule "my_plugins/coc.nvim"]
 	path = my_plugins/coc.nvim
 	url = https://github.com/neoclide/coc.nvim
+[submodule "my_plugins/vim-sleuth"]
+	path = my_plugins/vim-sleuth
+	url = https://github.com/tpope/vim-sleuth
