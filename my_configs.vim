@@ -5,7 +5,7 @@ set mouse=a
 set number 
 
 " Clipboard
-set clipboard=unnamedplus
+set clipboard=unnamed,unnamedplus
 vmap <C-c> "+yi
 vmap <C-x> "+c
 vmap <C-v> c<ESC>"+p
