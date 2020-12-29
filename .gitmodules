@@ -7,3 +7,6 @@
 [submodule "my_plugins/vim-sleuth"]
 	path = my_plugins/vim-sleuth
 	url = https://github.com/tpope/vim-sleuth
+[submodule "my_plugins/julia-vim"]
+	path = my_plugins/julia-vim
+	url = https://github.com/JuliaEditorSupport/julia-vim
