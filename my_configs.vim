@@ -1,5 +1,6 @@
 " Enable mouse usage
 set mouse=a
+set ttymouse=sgr
 
 " Show line numbers:
 set number 
