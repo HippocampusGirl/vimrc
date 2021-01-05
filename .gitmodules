@@ -10,3 +10,6 @@
 [submodule "my_plugins/julia-vim"]
 	path = my_plugins/julia-vim
 	url = https://github.com/JuliaEditorSupport/julia-vim
+[submodule "my_plugins/vim-auto-save"]
+	path = my_plugins/vim-auto-save
+	url = https://github.com/907th/vim-auto-save
